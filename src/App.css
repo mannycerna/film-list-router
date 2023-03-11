@@ -85,9 +85,9 @@ header a:hover {
 }
 
 .link-button {
-  display: inline-block;
+  /* display: inline-block;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none; */
   /* padding: .75rem 1.375rem; */
   /* color: initial; */
   /* font-weight: 700; */
@@ -222,7 +222,7 @@ header a:hover {
 }
 
 .film-type {
-  height: 34px;
+  height: auto;
   padding: 6px 26px;
   font-style: bold;
   font-weight: 750;
