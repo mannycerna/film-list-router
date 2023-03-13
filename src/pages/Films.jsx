@@ -20,7 +20,7 @@ export default function Films() {
     const filmElements = films.map(film => (
         <div key={film.id} className="film-tile">
             <Link to={`/films/${film.id}`}>
-                <img src={film.imageUrl} alt="" />
+                {/* <img src={film.imageUrl} alt="" /> */}
                 <div className="film-info">
                     <h1>{film.title}</h1>
                     <p>Actors: {film.actors}</p>

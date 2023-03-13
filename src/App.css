@@ -112,7 +112,7 @@ header a:hover {
 
 /*--- Home Page ---*/
 .home-container {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("./assets/images/home-hero.png") no-repeat center center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("./assets/images/film-projector.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -139,7 +139,7 @@ header a:hover {
   background-color: #FF8C38;
   border: none;
   width: 100%;
-  margin-top: 27px;
+  margin-top: 100px;
   padding-block: .75rem;
   color: white;
   font-weight: 700;
@@ -153,9 +153,9 @@ header a:hover {
 }
 
 
-/*--- ABOUT PAGE ---*/
+/*--- About Page ---*/
 .about-hero-image {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 .about-page-content {
@@ -194,6 +194,10 @@ header a:hover {
 
 
 /*--- Film Page ---*/
+
+.film-info h1 {
+  width: 500px;
+}
 .film-list-container {
   padding-inline: 23px
 }
@@ -223,6 +227,7 @@ header a:hover {
 
 .film-type {
   height: auto;
+  width: auto;
   padding: 6px 26px;
   font-style: bold;
   font-weight: 750;
@@ -271,7 +276,7 @@ header a:hover {
 }
 
 .film-remove {
-  height: 34px;
+  height: auto;
   padding: 6px 26px;
   font-style: bold, italic;
   font-size: larger;
@@ -284,6 +289,6 @@ header a:hover {
 }
 
 
-i[class*='van-type-'] {
+i[class*='film-type-'] {
   padding: 7px 14px;
 }
