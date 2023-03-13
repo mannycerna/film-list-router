@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "react-router-dom"
 import {useState, useEffect,} from "react"
 
+
+//*--Films Component --*//
 export default function Films() {
     const [films, setFilms] = useState([])
     useEffect(() => {
@@ -20,10 +22,9 @@ export default function Films() {
     const filmElements = films.map(film => (
         <div key={film.id} className="film-tile">
             <Link to={`/films/${film.id}`}>
-                {/* <img src={film.imageUrl} alt="" /> */}
                 <div className="film-info">
                     <h1>{film.title}</h1>
-                    <p>Actors: {film.actors}</p>
+                    <p>Actors: {film.actors.join(', ')}</p>
                     <p>Director: {film.director}</p>
                     <p>Date Added:  {film.dateAdded}</p>
                

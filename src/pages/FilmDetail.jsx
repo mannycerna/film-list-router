@@ -2,7 +2,7 @@ import React from "react"
 import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
 
-
+//*--Film Detail Component --*//
 export default function FilmDetail() {
     const params = useParams()
     const [film, setFilm] = useState(null)

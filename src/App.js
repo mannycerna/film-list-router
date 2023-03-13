@@ -5,7 +5,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Films from "./pages/Films"
 import FilmDetail from "./pages/FilmDetail"
-import "./server"
+import "./server"  //used mirage api to simulate a server serving the data api --data source is here
 import './App.css';
 
 
@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <header>
         <nav>
-          <Link className="site-logo" to="/">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/films">Films</Link>
         </nav>

@@ -2,6 +2,8 @@ import React from "react"
 import bgImg from "../assets/images/Enjoy-Movie-Home.png"
 import { Link } from "react-router-dom"
 
+
+//*-- About Component --*//
 export default function About() {
     return (
         <div className="about-page-container">
